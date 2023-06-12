@@ -90,7 +90,7 @@ const Coins = () => {
               return (
                 <Button
                   key={index}
-                  colorScheme="cyan"
+                  colorScheme="green"
                   borderRadius={"full"}
                   onClick={() => changePage(index + 1)}
                 >
