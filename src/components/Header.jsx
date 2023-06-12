@@ -43,7 +43,7 @@ const Header = () => {
         </HStack>
         <HStack spacing={"10"}>
           <Button variant={"unstyled"}>
-            <Link to={"/"}>HOME</Link>
+            <Link to={"/crypto"}>HOME</Link>
           </Button>
           <Button variant={"unstyled"}>
             <Link to={"/exchanges"}>EXCHANGES</Link>
@@ -114,7 +114,7 @@ const MobileHeader = () => {
                   w={"full"}
                   onClick={onClose}
                 >
-                  <Link to={"/"}>HOME</Link>
+                  <Link to={"/crypto"}>HOME</Link>
                 </Button>
                 <Button variant={"unstyled"} w={"full"} onClick={onClose}>
                   <Link to={"/exchanges"}>EXCHANGES</Link>
